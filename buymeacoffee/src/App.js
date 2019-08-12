@@ -2,12 +2,17 @@ import React from "react";
 import "./App.css";
 import LandingPage from "./Containers/LandingPage";
 import "bootstrap/dist/css/bootstrap.min.css";
+import SignUp from "./Containers/SignUp";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage />
-    </div>
+    <Router>
+      <div className="App">
+        <Route path="/" exact component={LandingPage} />
+        <Route path="/signup" exact component={SignUp} />
+      </div>
+    </Router>
   );
 }
 

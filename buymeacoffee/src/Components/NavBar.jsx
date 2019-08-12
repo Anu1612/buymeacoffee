@@ -3,12 +3,16 @@ import { Navbar } from "react-bootstrap";
 import coffeeMug from "../Assest/kawaii-coffee-mug-cartoon-vector-23675241.jpg";
 import "./NavBar.css";
 import Links from "./Links";
+import { withRouter } from "react-router-dom";
 
 const Nav = props => {
   return (
-    <Navbar className="NavBar">
+    <Navbar className="NavBar" sticky="top">
       <Navbar.Brand>
-        <div className="logo-text">
+        <div
+          className="logo-text"
+          onClick={() => props.history.push({ pathname: "/" })}
+        >
           {" "}
           <img src={coffeeMug} width="25%" /> buy me a coffee
         </div>
@@ -19,4 +23,4 @@ const Nav = props => {
   );
 };
 
-export default Nav;
+export default withRouter(Nav);

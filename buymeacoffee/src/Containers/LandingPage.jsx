@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Form, Button } from "react-bootstrap";
 import NavBar from "../Components/NavBar";
+import Body from "../Components/Body";
 
 class App extends Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <NavBar />
+        <Body />
       </React.Fragment>
     );
   }
