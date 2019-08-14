@@ -9,7 +9,7 @@ const Links = props => {
         <a href="/creators">Explore Creators</a>
       </Navbar.Text>
       <Navbar.Text className="mr-4">
-        <a href="/Login">Login</a>
+        <a href="/login">Login</a>
       </Navbar.Text>
       <button
         className="create-button"

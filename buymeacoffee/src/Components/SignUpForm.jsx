@@ -2,6 +2,10 @@ import React from "react";
 import "./SignUpForm.css";
 import { withRouter } from "react-router-dom";
 
+const handleInputChange = event => {
+  event.preventDefault();
+  console.log("inhere");
+};
 const SignUpForm = props => {
   return (
     <div className="form-container">
@@ -14,6 +18,7 @@ const SignUpForm = props => {
             type="text"
             placeholder="Name"
             required
+            onChange={handleInputChange}
           />
         </div>
         <div>
@@ -42,6 +47,12 @@ const SignUpForm = props => {
             placeholder="Confirm Password"
             required
           />
+        </div>
+        <div>
+          <input type="checkbox" />{" "}
+          <label>
+            You agree to our <a href="/terms">Terms of Use</a>
+          </label>
         </div>
         <div>
           <button type="submit" className="create-account-button">

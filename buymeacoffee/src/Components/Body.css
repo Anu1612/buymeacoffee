@@ -1,5 +1,6 @@
 .whole-body {
   background-color: #e8f4fa;
+  height: 560px;
 }
 .first-container {
   display: flex;
