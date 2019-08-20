@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eaaeaed4c8e6d00438881f678bf5306d",
+    "revision": "955ad6843b8dd37370d7ef47c862b993",
     "url": "/buymeacoffee/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buymeacoffee/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "ce371f9ee59d4976687b",
+    "revision": "a35b536a15dbf74627af",
     "url": "/buymeacoffee/static/css/main.0420495a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buymeacoffee/static/js/2.a662da01.chunk.js"
   },
   {
-    "revision": "ce371f9ee59d4976687b",
-    "url": "/buymeacoffee/static/js/main.d6d16030.chunk.js"
+    "revision": "a35b536a15dbf74627af",
+    "url": "/buymeacoffee/static/js/main.84689f38.chunk.js"
   },
   {
     "revision": "47cfb50b539d300d7911",
