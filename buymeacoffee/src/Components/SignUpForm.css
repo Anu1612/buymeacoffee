@@ -9,9 +9,10 @@
 
 .form-text {
   align-self: center;
+  text-align: center;
 }
 
-.input-clicked {
+.input-container {
   height: 70px;
   width: 100%;
   background-color: #fff;
@@ -22,6 +23,10 @@
   border: none;
   border: 1px solid #db708a;
   outline: none;
+}
+.input-container:focus-within {
+  border-style: solid;
+  border: 1.3px solid #ff0000;
 }
 .create-account-button {
   margin: 2%;
@@ -52,11 +57,18 @@
   background: #e9a2b3;
   outline: none;
 }
-.inner-input-clicked {
+.input-clicked {
   border: none;
-  margin-left: 5%;
-  margin-top: 3%;
+  align-self: center;
+  position: relative;
+  top: 30%;
+  left: 4%;
   width: 95%;
+}
+
+.input-clicked:focus {
+  border: none;
+  outline: none;
 }
 
 .login-google-button-text {
@@ -72,4 +84,19 @@
   border-width: 0%;
   border-radius: 4px;
   background-color: #ff0000;
+}
+
+.social-container {
+  display: inline-flex;
+  font-size: 36px;
+  justify-content: center;
+}
+
+.social-container i {
+  margin-left: 5%;
+}
+
+.fab:hover {
+  color: #4c6ef5;
+  cursor: pointer;
 }

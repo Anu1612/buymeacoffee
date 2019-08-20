@@ -11,7 +11,7 @@ class SignUp extends Component {
     return (
       <React.Fragment>
         <NavBar />
-        <div style={{ backgroundColor: "#e8f4fa", height: "800px" }}>
+        <div style={{ backgroundColor: "#e8f4fa", height: "100%" }}>
           <SignUpForm />
         </div>
       </React.Fragment>
