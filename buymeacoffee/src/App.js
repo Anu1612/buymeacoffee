@@ -8,14 +8,9 @@ import Login from "./Containers/Login";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/buymeacoffee">
       <div className="App">
-        <Route
-          path="/"
-          basename="/buymeacoffee"
-          exact
-          component={LandingPage}
-        />
+        <Route path="/" exact component={LandingPage} />
         <Route path="/signup" exact component={SignUp} />
         <Route path="/login" exact component={Login} />
       </div>
